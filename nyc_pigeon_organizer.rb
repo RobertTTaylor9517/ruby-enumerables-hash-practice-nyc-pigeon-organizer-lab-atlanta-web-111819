@@ -19,7 +19,7 @@ def nyc_pigeon_organizer(data)
         values{|values, array|
           array{|trait|
             if trait == names && name_hash == attributes
-              pigeon_data[names][name_hash]
+              pigeon_data[names][name_hash] << to.s
           }
         }
       }
