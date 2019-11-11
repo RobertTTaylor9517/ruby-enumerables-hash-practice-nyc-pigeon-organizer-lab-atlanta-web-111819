@@ -4,6 +4,8 @@ def nyc_pigeon_organizer(data)
   values {|values. array|
     array{|names|
       if pigeon_data[name] == nil
+        pigeon_data[name] = {}
+      else
     }
   }
     
