@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each {|attributes, values|
   values {|values. array|
     array{|names|
-      
+      if pigeon_data[name] == nil
     }
   }
     
