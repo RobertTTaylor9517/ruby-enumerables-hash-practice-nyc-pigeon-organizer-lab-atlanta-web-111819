@@ -13,5 +13,5 @@ def nyc_pigeon_organizer(data)
   }
     
   }
-  data.each
+  pigeon_data.each{|
 end
