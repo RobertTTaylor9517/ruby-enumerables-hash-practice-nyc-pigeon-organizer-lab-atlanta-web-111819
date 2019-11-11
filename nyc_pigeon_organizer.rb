@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
         pigeon_data[name][attributes] = []
       else
         pigeon_data[name][attributes] = []
+      end
     }
   }
     
