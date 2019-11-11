@@ -14,6 +14,6 @@ def nyc_pigeon_organizer(data)
     
   }
   pigeon_data.each{|attributes, values|
-    
+    values.each{|
   }
 end
