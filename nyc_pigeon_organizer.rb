@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
       data.each{|attributes, values|
         values{|values, array|
           array{|trait|
-            if trait
+            if trait == 
           }
         }
       }
