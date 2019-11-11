@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     array{|names|
       if pigeon_data[name] == nil
         pigeon_data[name] = {}
-        pigeon_data[attributes]
+        pigeon_data[name][attributes]
       else
     }
   }
