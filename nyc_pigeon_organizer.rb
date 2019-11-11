@@ -25,4 +25,5 @@ def nyc_pigeon_organizer(data)
       }
     }
   }
+  return pigeon_data
 end
