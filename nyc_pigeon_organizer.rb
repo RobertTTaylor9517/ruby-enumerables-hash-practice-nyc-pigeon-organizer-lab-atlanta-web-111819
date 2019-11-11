@@ -3,11 +3,11 @@ def nyc_pigeon_organizer(data)
   data.each {|attributes, values|
   values.each {|values, array|
     array.each{|names|
-      if pigeon_data[name] == nil
-        pigeon_data[name] = {}
-        pigeon_data[name][attributes] = []
+      if pigeon_data[names] == nil
+        pigeon_data[names] = {}
+        pigeon_data[names][attributes] = []
       else
-        pigeon_data[name][attributes] = []
+        pigeon_data[names][attributes] = []
       end
     }
   }
