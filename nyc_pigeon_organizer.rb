@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
   }
     
   }
-  pigeon_data.each{|attributes, values|
+  pigeon_data.each{|names, values|
     values.each{|
   }
 end
